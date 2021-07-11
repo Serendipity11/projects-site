@@ -28,6 +28,7 @@ h2 {
 
 h3 {
   font-size: 46px !important;
+  margin-top: 20px !important;
 }
 
 p {
@@ -121,6 +122,9 @@ p.weather-p {
   }
   h2 {
     font-size: 42px !important;
+  }
+  h3 {
+    font-size: 30px !important;
   }
   img {
     display: none;

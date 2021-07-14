@@ -115,21 +115,20 @@ p.weather-p {
   margin-bottom: 30px;
 }
 
-@media (max-width: 375px) {
-  body {
-    text-align: center !important;
-    align-items: center !important;
-  }
-  p {
-    text-align: center !important;
-  }
+@media (max-width: 576px) {
   h2 {
-    font-size: 42px !important;
+    font-size: 48px;
+    line-height: 1.5;
   }
   h3 {
-    font-size: 30px !important;
+    font-size: 32px;
   }
-  /* img {
-    display: none;
-  } */
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }

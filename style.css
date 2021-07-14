@@ -118,7 +118,10 @@ p.weather-p {
 @media (max-width: 375px) {
   body {
     text-align: center !important;
-    align-items: center;
+    align-items: center !important;
+  }
+  p {
+    text-align: center !important;
   }
   h2 {
     font-size: 42px !important;
@@ -126,7 +129,7 @@ p.weather-p {
   h3 {
     font-size: 30px !important;
   }
-  img {
+  /* img {
     display: none;
-  }
+  } */
 }
